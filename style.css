@@ -1,0 +1,59 @@
+:root{
+    --banana-color : #ffe135;
+}
+
+body{
+    margin : 0;
+    background-image: url("images/wallpaper-2.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.header{
+    background-color : var(--banana-color);
+    padding : 15px;
+    margin : 0;
+    font-family: cursive;
+    text-align: center;
+}
+#center{
+    max-width: 500px;
+    width : 70vw;
+    margin :auto;
+    box-sizing : border-box;
+    margin-top: 40px;
+}
+#txt-input{
+    display: block;
+    height : 100px;
+    width : 100%;
+    border : 2px rgba(0, 0, 0, 0.76) solid;
+}
+.btn-primary{
+    background-color: var(--banana-color);
+    padding : 16px 30px;
+    border : none;
+    margin : 10px;
+    margin-left : 0;
+    font-family: cursive;
+    font-style: italic;
+}
+#center p{
+    margin-bottom : 0;
+    margin-top : 20px;
+}
+p{
+    font-family: cursive;
+}
+#output{
+    border : 2px rgba(0, 0, 0, 0.76) solid;
+    height : 70px;
+    background-color: white;
+}
+.footer{
+    background-color: var(--banana-color);
+    padding : 10px 20vw;
+    margin-top : 70px;
+    text-align : center;
+    
+}
