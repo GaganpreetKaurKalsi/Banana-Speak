@@ -43,7 +43,7 @@ body{
     margin-top : 20px;
 }
 p{
-    font-family: cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 #output{
     border : 2px rgba(0, 0, 0, 0.76) solid;
