@@ -13,7 +13,7 @@ body{
     background-color : var(--banana-color);
     padding : 15px;
     margin : 0;
-    font-family: cursive;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 #center{
